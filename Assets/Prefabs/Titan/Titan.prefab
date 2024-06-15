@@ -102,7 +102,7 @@ MonoBehaviour:
   onShootFX: {fileID: 8074995735305078821, guid: aca1c506606681c40ad3f71042cdaad1, type: 3}
   wave: {fileID: 1061237923349485596, guid: 25e3cf809da40be468423bf3b7ca6614, type: 3}
   shootStart: {fileID: 8213986906554473591}
-  reloadingTime: 0.4
+  reloadingTime: 0.3
 --- !u!95 &866232478566187319
 Animator:
   serializedVersion: 5

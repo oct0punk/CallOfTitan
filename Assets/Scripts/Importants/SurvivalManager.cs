@@ -38,6 +38,7 @@ public class SurvivalManager : MonoBehaviour
     public void NextWave()
     {
         GameManager.instance.player.Heal();
+        StartCoroutine(GameManager.instance.player.BetweenWave());
         StartRound(++wave);
     }
 
